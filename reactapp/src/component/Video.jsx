@@ -1,10 +1,10 @@
 import "./Video.css";
 
-const Video = () => {
+const Video = (prop) => {
   return (
     <div className="video">
       <img src="https://loremflickr.com/500/400" alt="cats" />
-      <div>Learning React Component</div>
+      <div>{prop.title}</div>
     </div>
   );
 };
