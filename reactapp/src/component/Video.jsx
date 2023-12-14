@@ -2,7 +2,7 @@ import "./Video.css";
 
 const Video = ({ title, channel, views, time }) => {
   return (
-    <div>
+    <div className="">
       <div className="video">
         <img src="https://loremflickr.com/500/400" alt="cats" />
       </div>
