@@ -5,8 +5,8 @@ const App = () => {
   return (
     <>
       <div>hello jee</div>
-      <Video title="React js" />
-      <Video title="Node js" />
+      <Video title="React js" bgColor="red" />
+      <Video title="Node js" bgColor="green" />
     </>
   );
 };

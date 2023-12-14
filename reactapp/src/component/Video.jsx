@@ -1,10 +1,10 @@
 import "./Video.css";
 
-const Video = ({ title }) => {
+const Video = ({ title, bgColor }) => {
   return (
     <div className="video">
       <img src="https://loremflickr.com/500/400" alt="cats" />
-      <div>{title}</div>
+      <div style={{ backgroundColor: bgColor }}>{title}</div>
     </div>
   );
 };
