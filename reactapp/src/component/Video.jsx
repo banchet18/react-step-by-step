@@ -1,10 +1,10 @@
 import "./Video.css";
 
-const Video = (prop) => {
+const Video = ({ title }) => {
   return (
     <div className="video">
       <img src="https://loremflickr.com/500/400" alt="cats" />
-      <div>{prop.title}</div>
+      <div>{title}</div>
     </div>
   );
 };
