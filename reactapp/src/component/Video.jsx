@@ -4,7 +4,7 @@ const Video = ({ title, channel, views, time }) => {
   return (
     <div className="">
       <div className="video">
-        <img src="https://loremflickr.com/500/400" alt="cats" />
+        <img src="https://loremflickr.com/300/200" alt="cats" />
       </div>
       <div>{title}</div>
       <div>{channel}</div>
