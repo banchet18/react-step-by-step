@@ -1,7 +1,11 @@
-const List = ({ items, key }) => {
+const List = ({ items, layout, color }) => {
   return (
     <div>
-      <ul>
+      <ul
+        style={
+          ({ listStyleType: `${layout}` }, { backgroundColor: `${color}` })
+        }
+      >
         {items.map((item) => (
           <li>{item}</li>
         ))}

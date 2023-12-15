@@ -4,9 +4,9 @@ import items from "./Items";
 const App = () => {
   return (
     <div>
-      <List layout="numbered" items={items} key={1} />
-      <List layout="alpha" items={items} key={1} />
-      <List layout="bullet" items={items} key={1} />
+      <List layout="square" items={items} key={1} color="red" />
+      <List layout="circle" items={items} key={2} color="blue" />
+      <List layout="upper-roman" items={items} key={3} color="green" />
     </div>
   );
 };
