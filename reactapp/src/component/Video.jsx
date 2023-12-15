@@ -1,7 +1,6 @@
 import "./Video.css";
 
 const Video = ({ title, channel, views, time }) => {
-  let verified = true;
   let channelJSX;
   if (verified) {
     channelJSX = <div>{channel}✅</div>;
