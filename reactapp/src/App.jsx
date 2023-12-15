@@ -1,6 +1,6 @@
+import { version } from "react";
 import "./App.css";
 import Video from "./component/Video";
-import Border from "./component/Border";
 
 const App = () => {
   const videos = [
@@ -32,13 +32,18 @@ const App = () => {
   return (
     <>
       <div className="container">
-        <Video
-          title="Node js"
-          channel="coderDost"
-          views="100k"
-          time="1 month ago"
-          verified={true}
-        />
+        {videos.map((x) => {
+          return (
+            <Video
+              title={x.title}
+              channel={x.channel}
+              views={x.views}
+              time={x.time}
+              verified={x.verified}
+              key={x.id}
+            />
+          );
+        })}
       </div>
     </>
   );
