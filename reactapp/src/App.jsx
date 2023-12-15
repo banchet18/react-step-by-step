@@ -8,6 +8,7 @@ const App = () => {
     channel: "coderDost",
     views: "10k",
     time: "1 year ago",
+    verified: "✅",
   };
   return (
     <>
