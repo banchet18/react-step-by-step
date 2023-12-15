@@ -3,15 +3,16 @@ import Video from "./component/Video";
 import Border from "./component/Border";
 
 const App = () => {
+  const obj = {
+    title: "React js",
+    channel: "coderDost",
+    views: "10k",
+    time: "1 year ago",
+  };
   return (
     <>
       <div className="container">
-        <Video
-          title="React js"
-          channel="coderDost"
-          views="10k"
-          time="1 year ago"
-        />
+        <Video {...obj} />
         <Border>
           <Video
             title="Node js"
