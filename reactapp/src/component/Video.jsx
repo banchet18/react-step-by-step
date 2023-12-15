@@ -1,5 +1,4 @@
 import "./Video.css";
-
 const Video = ({ title, channel, views, time, verified, id }) => {
   return (
     <div className="">
