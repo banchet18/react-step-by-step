@@ -1,4 +1,3 @@
-import { version } from "react";
 import "./App.css";
 import Video from "./component/Video";
 
