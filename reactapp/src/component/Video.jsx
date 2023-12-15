@@ -1,10 +1,10 @@
 import "./Video.css";
 
-const Video = ({ title, channel, views, time, verified }) => {
+const Video = ({ title, channel, views, time, verified, key }) => {
   return (
     <div className="">
       <div className="video">
-        <img src="https://loremflickr.com/300/200" alt="cats" />
+        <img src={`https://picsum.photos/id/${key}/160/90`} alt="cats" />
       </div>
       <div>{title}</div>
       {
