@@ -32,16 +32,13 @@ const App = () => {
   return (
     <>
       <div className="container">
-        <Video {...obj} />
-        <Border>
-          <Video
-            title="Node js"
-            channel="coderDost"
-            views="100k"
-            time="1 month ago"
-            verified={true}
-          />
-        </Border>
+        <Video
+          title="Node js"
+          channel="coderDost"
+          views="100k"
+          time="1 month ago"
+          verified={true}
+        />
       </div>
     </>
   );
