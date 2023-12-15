@@ -7,7 +7,12 @@ const Video = ({ title, channel, views, time, verified }) => {
         <img src="https://loremflickr.com/300/200" alt="cats" />
       </div>
       <div>{title}</div>
-      {verified ? <div>{channel}✅</div> : <div>{channel}</div>}
+      {
+        <div>
+          {channel}
+          {verified ? "✅" : null}
+        </div>
+      }
       <div>
         {views} views . {time}
       </div>
