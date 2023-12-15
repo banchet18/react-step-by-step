@@ -8,7 +8,7 @@ const App = () => {
     channel: "coderDost",
     views: "10k",
     time: "1 year ago",
-    verified: "✅",
+    verified: true,
   };
   return (
     <>
@@ -20,6 +20,7 @@ const App = () => {
             channel="coderDost"
             views="100k"
             time="1 month ago"
+            verified={false}
           />
         </Border>
       </div>
