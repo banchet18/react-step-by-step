@@ -1,5 +1,6 @@
 import "./App.css";
 import Video from "./component/Video";
+import Border from "./component/Border";
 
 const App = () => {
   return (
@@ -11,12 +12,14 @@ const App = () => {
           views="10k"
           time="1 year ago"
         />
-        <Video
-          title="Node js"
-          channel="coderDost"
-          views="100k"
-          time="1 month ago"
-        />
+        <Border>
+          <Video
+            title="Node js"
+            channel="coderDost"
+            views="100k"
+            time="1 month ago"
+          />
+        </Border>
       </div>
     </>
   );
