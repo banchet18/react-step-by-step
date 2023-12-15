@@ -34,12 +34,13 @@ const App = () => {
         {videos.map((x) => {
           return (
             <Video
+              key={x.id}
+              id={x.id}
               title={x.title}
               channel={x.channel}
               views={x.views}
               time={x.time}
               verified={x.verified}
-              key={x.id}
             />
           );
         })}
